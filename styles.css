@@ -2,6 +2,15 @@
 
 /* begin common styles */
 
+:root {
+  --white: #f0f8ff;
+  --yellow: #fdffbc;
+  --orange-yellow: #ffeebb;
+  --orange: #ffdcb8;
+  --red-orange: #ffdcb8;
+  --black: #492500;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,7 +34,9 @@ html {
 .section-heading {
   font-size: 10rem;
   font-weight: 900;
-  text-shadow: 0.3rem 0.3rem 0.3rem rgb(0, 0, 0);
+  /* text-shadow: 0.3rem 0.3rem 0.3rem rgb(0, 0, 0); */
+  text-align: center;
+  letter-spacing: 0.3rem;
 }
 
 /* end common styles */
@@ -35,5 +46,29 @@ html {
 /* end navbar styles */
 
 /* section 1 styles */
+
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding-bottom: 10rem; */
+}
+
+.section-1-heading {
+  color: var(--red-orange);
+  text-shadow: 0.1rem 0.1rem 0.3rem var(--black);
+}
+
+.section-1-image img {
+  opacity: 0.6;
+  filter: sepia(100%) drop-shadow(0.3rem 0.3rem 0.3rem var(--black));
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0.5);
+  top: 40%;
+}
 
 /* end section 1 styles */
