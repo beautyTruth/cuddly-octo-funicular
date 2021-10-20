@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;600;700;800&family=Bebas+Neue&family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+/* begin common styles */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  font-family: josefin sans, futura, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-heading {
+  font-size: 10rem;
+  font-weight: 900;
+  text-shadow: 0.3rem 0.3rem 0.3rem rgb(0, 0, 0);
+}
+
+/* end common styles */
+
+/* navbar styles */
+
+/* end navbar styles */
+
+/* section 1 styles */
+
+/* end section 1 styles */
