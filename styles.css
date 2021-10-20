@@ -61,6 +61,7 @@ html {
 .section-1-heading {
   color: var(--red-orange);
   text-shadow: 0.1rem 0.1rem 0.3rem var(--black);
+  user-select: none;
 }
 
 .section-1-image img {
@@ -69,6 +70,7 @@ html {
   position: absolute;
   transform: translate(-50%, -50%) scale(0.5);
   top: 40%;
+  user-select: none;
 }
 
 /* end section 1 styles */
