@@ -5,3 +5,12 @@ document.querySelector(".menu").addEventListener("click", () => {
     pull.classList.toggle("sparklebangs");
   });
 });
+
+// code for the strength explanation fill
+
+document.querySelectorAll(".explanation-btn").forEach((boop) => {
+  boop.addEventListener("click", () => {
+    boop.classList.toggle("schpadoinkle");
+    boop.nextElementSibling.classList.toggle("schpadoinkle");
+  });
+});

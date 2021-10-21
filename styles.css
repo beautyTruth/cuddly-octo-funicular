@@ -156,8 +156,8 @@ html {
   left: -0.8rem;
   font-size: 3rem;
   font-weight: 900;
-  color: aqua;
-  text-shadow: 0.2rem 0.2rem 0.1rem var(--black);
+  color: var(--yellow);
+  text-shadow: 0.2rem 0.2rem 0.2rem var(--orange);
 }
 
 /* end navbar styles */
@@ -192,3 +192,174 @@ html {
 }
 
 /* end section 1 styles */
+
+/* section 2 styles */
+.section-2 {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0 10rem 0;
+  background-color: var(--orange-yellow);
+}
+
+.section-2-heading {
+  font-size: 12rem;
+  color: var(--yellow);
+  text-shadow: 0.1rem 0.1rem 0.3rem var(--red-orange);
+}
+
+.strengths-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70%;
+}
+
+.clifton-strength {
+  width: 30rem;
+  background-color: var(--red-orange);
+  padding: 1rem 1rem 2rem 1rem;
+  position: relative;
+  opacity: 0.67;
+  transition: opacity 0.5s;
+}
+
+.clifton-strength:nth-child(2) {
+  margin-top: 5rem;
+}
+
+.clifton-strength:nth-child(3) {
+  margin-top: 10rem;
+}
+
+.clifton-strength:nth-child(4) {
+  margin-top: 15rem;
+}
+
+.clifton-strength:nth-child(5) {
+  margin-top: 20rem;
+}
+
+.clifton-strength:hover {
+  opacity: 1;
+}
+
+.clifton-strength-image {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.clifton-strength-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--black);
+  margin-top: 2rem;
+}
+
+.team-member-name span {
+  font-size: 1.7rem;
+}
+
+.clifton-strength-attribute {
+  font-size: 1.7rem;
+  color: var(--black);
+  font-weight: 500;
+  margin: 1rem 0 1rem 0;
+}
+
+.strength-btn {
+  background-color: var(--yellow);
+  color: var(--black);
+  padding: 0.5rem 1.5rem;
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.explanation-btn {
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--orange);
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 50;
+  transition: transform 0.5s;
+}
+
+.explanation-btn::after {
+  content: "click";
+  position: absolute;
+  top: 22%;
+  right: 27%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.explanation-btn::before {
+  content: "me";
+  position: absolute;
+  top: 52%;
+  right: 33%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.schpadoinkle.explanation-btn {
+  transform: rotate(405deg);
+}
+
+.explanation-btn-line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--black);
+}
+
+.explanation {
+  width: 100%;
+  height: 100%;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  transform: scale(0);
+  transform-origin: top right;
+  border-radius: 50rem 0 50rem 50rem;
+  transition: all 0.5s;
+}
+
+.schpadoinkle.explanation {
+  transform: scale(1);
+  border-radius: 0;
+}
+
+.explanation-heading {
+  font-size: 4rem;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 2rem;
+}
+
+.explanation-paragraph {
+  font-size: 1.8rem;
+  color: var(--black);
+  font-weight: 500;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  text-indent: 2rem;
+}
+
+/* end section 2 styles */
