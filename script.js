@@ -14,3 +14,5 @@ document.querySelectorAll(".explanation-btn").forEach((boop) => {
     boop.nextElementSibling.classList.toggle("schpadoinkle");
   });
 });
+
+// code for switching from spaceman to kiki
