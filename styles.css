@@ -57,10 +57,10 @@ html {
   transition: top 0.5s;
 }
 
-/* .navbar.sparklebangs {
+.navbar.sparklebangs {
   top: 0;
-  transition: top .4s .2s;
-} */
+  transition: top 0.4s 0.2s;
+}
 
 .navbar-link {
   color: var(--black);
