@@ -19,6 +19,7 @@
   list-style-type: none;
   outline: none;
   font-family: josefin sans, futura, sans-serif;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -223,6 +224,7 @@ html {
   padding: 1rem 1rem 2rem 1rem;
   position: relative;
   opacity: 0.67;
+  box-shadow: 0.2rem 0.2rem 4rem var(--black);
   transition: opacity 0.5s;
 }
 
@@ -491,3 +493,38 @@ html {
 }
 
 /* end section 3 styles */
+
+/* begin footer and scroll up button */
+.footer {
+  width: 100%;
+  height: 10rem;
+  background-color: var(--orange-yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  font-family: "Bebas neue", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 1.6rem;
+  color: var(--red-orange);
+  text-shadow: 0 0.1rem 0.1rem var(--white);
+}
+
+.scroll-btn {
+  position: fixed;
+  right: 5rem;
+  bottom: 5rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--red-orange);
+  box-shadow: 0 0.1rem 0.6rem var(--red-orange);
+  border-radius: 0.3rem;
+}
+/* end footer and scroll up button */

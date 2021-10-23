@@ -15,4 +15,8 @@ document.querySelectorAll(".explanation-btn").forEach((boop) => {
   });
 });
 
-// code for switching from spaceman to kiki
+// code for dynamic changing year
+
+const newYear = document.querySelector(".year");
+const bornMe = new Date().getFullYear();
+newYear.textContent = bornMe;
