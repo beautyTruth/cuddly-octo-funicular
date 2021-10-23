@@ -363,3 +363,17 @@ html {
 }
 
 /* end section 2 styles */
+
+/* start section 3 styles */
+
+.section-3 {
+}
+
+.section-3-heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* end section 3 styles */
