@@ -537,4 +537,36 @@ html {
 }
 
 @media (max-width: 1500px) {
+  .section-2 {
+    height: 200vh;
+  }
+
+  .strengths-wrapper {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .clifton-strength {
+    min-width: 30%;
+  }
+
+  .clifton-strength:nth-child(1) {
+    margin-top: 0;
+  }
+
+  .clifton-strength:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .clifton-strength:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .clifton-strength:nth-child(4) {
+    margin-top: 0;
+  }
+
+  .clifton-strength:nth-child(5) {
+    margin-top: 0;
+  }
 }
