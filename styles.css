@@ -570,3 +570,18 @@ html {
     margin-top: 0;
   }
 }
+
+@media (max-width: 1200px) {
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inspirations {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+}
