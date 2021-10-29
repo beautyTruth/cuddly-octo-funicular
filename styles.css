@@ -623,4 +623,16 @@ html {
   .navbar-link {
     margin: 0 3rem;
   }
+
+  .section-2-heading {
+    font-size: 8rem;
+  }
+
+  .section-3-heading {
+    font-size: 8rem;
+  }
+
+  .section-3-heading-text {
+    width: 70%;
+  }
 }
