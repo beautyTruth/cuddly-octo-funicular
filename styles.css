@@ -585,3 +585,28 @@ html {
     width: 70%;
   }
 }
+
+@media (max-width: 1000px) {
+  .section-1-heading {
+    visibility: none;
+    opacity: 0;
+  }
+
+  .section-1-image img {
+    top: 55%;
+    transform: translate(-50%, -50%) scale(0.85);
+  }
+
+  .section-2 {
+    height: auto;
+  }
+
+  .strengths-wrapper {
+    margin-top: 5rem;
+    gap: 5rem;
+  }
+
+  .clifton-strength {
+    width: 60%;
+  }
+}
