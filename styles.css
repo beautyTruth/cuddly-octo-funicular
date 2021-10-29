@@ -636,3 +636,34 @@ html {
     width: 70%;
   }
 }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
+  .navbar-link {
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .copyright {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 45%;
+  }
+
+  .navbar-link {
+    margin: 0 1rem;
+  }
+
+  .section-1-image img {
+    top: 55%;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+}
