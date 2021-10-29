@@ -610,3 +610,17 @@ html {
     width: 60%;
   }
 }
+
+@media (max-width: 800px) {
+  .navbar-link i {
+    font-size: 5rem;
+  }
+
+  .navbar-link span {
+    font-size: 1.6rem;
+  }
+
+  .navbar-link {
+    margin: 0 3rem;
+  }
+}
